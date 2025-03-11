@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start:prod": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "mercadopago": "^2.3.0",
+    "mongoose": "^8.9.5",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.13",
+    "@types/node": "^22.10.7",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  }
+}
