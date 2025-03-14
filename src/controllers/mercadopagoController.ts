@@ -93,11 +93,11 @@ const preferenceData = {
     email: payerEmail,
   },
   back_urls: {
-    success: "http://localhost:5173/checkout",
-    failure: "http://localhost:5173/checkout",
-    pending: "http://localhost:5173/checkout",
-  },
-  notification_url: "https://4495-179-12-32-69.ngrok-free.app/webhook",
+  success: "https://stevesshop.com.co/checkout",
+  failure: "https://stevesshop.com.co/checkout",
+  pending: "https://stevesshop.com.co/checkout",
+},
+  notification_url: "https://tienda-virtual-stevesshop.onrender.com/webhook",
   auto_return: "approved",
   external_reference: newOrder._id.toString(),
 };
